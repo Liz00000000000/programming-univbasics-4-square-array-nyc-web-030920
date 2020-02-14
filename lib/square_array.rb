@@ -2,7 +2,7 @@ def square_array(array)
   i = 0
   while i < array.size do
   sum = array[i] ** 2
-  p sum
+  sum
     i += 1
   end
 end
