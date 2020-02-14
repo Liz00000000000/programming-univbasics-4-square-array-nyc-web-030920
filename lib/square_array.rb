@@ -3,7 +3,7 @@ def square_array(array)
   #sum = Math.sqrt(array.each)
   while i < array.size do
   sum = array[i] ** 2
-  puts sum
+  return sum
     i += 1
   end
 end
