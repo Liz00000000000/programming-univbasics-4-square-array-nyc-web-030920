@@ -1,8 +1,8 @@
 def square_array(array)
   i = 0
+   newarray = [ ]
   while i < array.size do
   sum = array[i] ** 2
-  newarray = []
   newarray << sum
     puts newarray
     i += 1
