@@ -4,9 +4,9 @@ def square_array(array)
   while i < array.size do
   sum = array[i] ** 2
   newarray << sum
-    p newarray
     i += 1
   end
+    p newarray
 end
 
 numbers = [1,2,3]
