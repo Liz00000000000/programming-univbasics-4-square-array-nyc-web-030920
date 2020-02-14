@@ -1,14 +1,13 @@
-def square_array(numbers = [1,2,3])
-  result = Array.new(numbers)
+def square_array(array)
   i = 0
   #sum = Math.sqrt(array.each)
-  while i < numbers.size do
-    result[i] = numbers[i] ** 2
+  while i < array.size do
+  sum = array[i] ** 2
+  puts sum
     i += 1
-    puts result
   end
 end
 
-#numbers = [1,2,3]
+numbers = [1,2,3]
 
-#square_array(numbers)
+square_array(numbers)
