@@ -2,8 +2,7 @@ def square_array(array)
   i = 0
   while i < array.size do
   sum = array[i] ** 2
-  Array.new = [sum,sum,sum]
-    puts Array.new[ ]
+    puts sum = [ ]
     i += 1
   end
 end
